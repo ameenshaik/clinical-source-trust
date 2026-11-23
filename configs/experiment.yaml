@@ -1,0 +1,8 @@
+max_turns: 12
+seeds: [0, 1, 2]
+cases_file: data/cases/selected.json
+conditions:
+  source: [none, patient, tool, conflict]
+  corruption_type: [plausible, implausible]
+  strategy: [baseline]          # add differential, crosscheck after baseline runs
+  model: [agent_small, agent_large]

@@ -1,0 +1,9 @@
+openai          # OpenRouter is OpenAI-API compatible
+python-dotenv
+pyyaml
+pandas
+numpy
+statsmodels
+matplotlib
+tqdm
+pytest

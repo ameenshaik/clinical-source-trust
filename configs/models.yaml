@@ -1,0 +1,6 @@
+# Pin one provider per model and record it here (see OpenRouter provider routing).
+agent_small:  { id: openai/gpt-oss-20b,        provider: TBD, temperature: 0.7, reasoning_effort: low }
+agent_large:  { id: openai/gpt-oss-120b,       provider: TBD, temperature: 0.7, reasoning_effort: low }
+patient:      { id: qwen/qwen3.7-flash,        provider: TBD, temperature: 0.3 }
+judge:        { id: anthropic/claude-haiku-5.5, provider: TBD, temperature: 0.0 }
+dev_free:     { id: google/gemma-4-31b-it:free }
